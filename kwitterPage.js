@@ -43,7 +43,7 @@ function PegarDado(){
         var Tag_do_like = '<button class="btn btn-primary" id='+Id_da_Mensagem+' value='+like+' onclick=Like(this.id)>';
         var Imagem_do_Like = '<span class="glyphicon glyphicon-thumbs-up">LIKE: '+like+'</span></button><hr>';
         var caixa = Tag_do_nome+Tag_da_mensagem+Tag_do_like+Imagem_do_Like;
-        DocumentType.getElementById("output").innerHTML+=caixa;
+        document.getElementById("output").innerHTML+=caixa;
       }
     });
   });
